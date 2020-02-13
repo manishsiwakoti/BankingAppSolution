@@ -24,7 +24,10 @@ namespace BankingLibrary
             fromaccount.Withdraw(amount);
             toaccount.Depoist(amount);
             }
+        public Account()
+            {
 
+            }
             }
         }       
     
